@@ -1,0 +1,4 @@
+fastmcp
+sqlite3
+os
+json
