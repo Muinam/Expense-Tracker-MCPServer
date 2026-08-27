@@ -12,3 +12,6 @@ wheels/
 uv.lock
 run.txt
 .python-version
+
+# Proxy server
+proxy_server.py

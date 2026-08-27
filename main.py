@@ -34,7 +34,7 @@ def add_expense(date, amount, category, subcategory="", note=""):
         return {'Status': 'ok', 'id': cur.lastrowid}
         
 
-mcp.tool()
+@mcp.tool()
 def list_expenses(start_date, end_date):
     "List all expense entries form the database."
     with sqlite3.connect(db_path) as c:
